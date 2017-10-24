@@ -1,0 +1,14 @@
+.aboutContainer {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+.aboutSection {
+  flex: 0 0 32%;
+}

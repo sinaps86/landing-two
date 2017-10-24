@@ -1,0 +1,19 @@
+.contentBlock {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contentContainer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.contentSection {
+  flex: 0 0 32%;
+
+  img {
+    width: 100%;
+  }
+}
