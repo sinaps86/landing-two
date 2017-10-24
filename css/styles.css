@@ -1,0 +1,14 @@
+html {
+  font-family: "Archivo Narrow", sans-serif;
+  height: 100%; }
+
+body {
+  background-image: url("../img/bg01.jpg"); }
+
+.bgContainer {
+  background-color: #fff;
+  margin-top: 35px;
+  min-height: 200px;
+  box-shadow: 0 -10px 2px rgba(125, 125, 125, 0.1), 0 10px 2px rgba(125, 125, 125, 0.1); }
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,23 @@
+@import "variables";
+@import "mixins";
+@import "header";
+@import "content";
+@import "about";
+@import "footer";
+
+
+html {
+  font-family: "Archivo Narrow", sans-serif;
+  height: 100%;
+}
+
+body {
+    background-image: url("../img/bg01.jpg");
+}
+
+.bgContainer {
+  background-color: $primal;
+  margin-top: 35px;
+  min-height: 200px;
+  box-shadow: 0 -10px 2px rgba(125,125,125,.1), 0 10px 2px rgba(125,125,125,.1);
+}
