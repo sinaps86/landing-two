@@ -35,7 +35,7 @@
   .mainNav .button {
     background-color: #99CCBB;
     color: #fff;
-    border: 1px solid #53b4a9;
+    border: 1px solid #48a69d;
     border-radius: 5px;
     padding: 0.6em 1.4em;
     text-align: center;
@@ -86,15 +86,16 @@
   .contentSection a.button {
     font-size: 0.9em; }
     .contentSection a.button:hover {
-      color: #53b4a9; }
+      background-color: #48a69d; }
   .contentSection .button {
     background-color: #99CCBB;
     color: #fff;
-    border: 1px solid #53b4a9;
+    border: 1px solid #48a69d;
     border-radius: 5px;
     padding: 0.6em 1.4em;
     text-align: center;
-    text-decoration: none; }
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #48a69d; }
 
 .aboutContainer {
   width: 1200px;
@@ -103,11 +104,85 @@
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  padding-top: 4em;
-  padding-bottom: 4em; }
+  padding-top: 2em;
+  padding-bottom: 4em;
+  color: #5c5c5c;
+  font-size: 1em; }
 
 .aboutSection {
   flex: 0 0 32%; }
+  .aboutSection a {
+    color: #5c5c5c; }
+    .aboutSection a:hover {
+      text-decoration: none; }
+  .aboutSection h2 {
+    font-size: 1.4em;
+    font-weight: bold; }
+  .aboutSection p {
+    font-size: 0.85em;
+    letter-spacing: 1px;
+    line-height: 1.8;
+    margin-bottom: 2em; }
+  .aboutSection a.button {
+    font-size: 0.9em; }
+    .aboutSection a.button:hover {
+      box-shadow: 0 0 7px 3px #fff; }
+  .aboutSection .button {
+    background-color: #99CCBB;
+    color: #fff;
+    border: 1px solid #48a69d;
+    border-radius: 5px;
+    padding: 0.6em 1.4em;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #48a69d; }
+  .aboutSection .squareBtn {
+    background-color: #99CCBB;
+    color: #fff;
+    border: 1px solid #48a69d;
+    border-radius: 5px;
+    padding: 0.5em 0.65em 0.3em 0.65em;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin-right: 1em; }
+  .aboutSection .littleFlexContainer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center; }
+    .aboutSection .littleFlexContainer span:first-child, .aboutSection .littleFlexContainer div:first-child {
+      flex: 0 0 5em; }
+  .aboutSection .lastUpdRecord {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em; }
+    .aboutSection .lastUpdRecord .month {
+      margin-botton: -0.5em; }
+    .aboutSection .lastUpdRecord .day {
+      font-size: 1.5em;
+      margin-top: -0.5em; }
+    .aboutSection .lastUpdRecord h3 {
+      font-size: 1.1em;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding-top: 0;
+      padding-bottom: 0; }
+    .aboutSection .lastUpdRecord p {
+      margin-top: 0;
+      margin-bottom: 0;
+      padding-top: 0;
+      padding-bottom: 0; }
+    .aboutSection .lastUpdRecord a {
+      text-decoration: none; }
+      .aboutSection .lastUpdRecord a:hover {
+        text-decoration: underline; }
+  .aboutSection .aboutUsField {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-top: 1px solid #99CCBB; }
+    .aboutSection .aboutUsField:first-of-type {
+      border-top: none;
+      margin-top: -0.5em; }
 
 .mainFooter {
   background-color: #fff;

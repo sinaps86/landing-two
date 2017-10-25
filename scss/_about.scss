@@ -5,10 +5,113 @@
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  padding-top: 4em;
+  padding-top: 2em;
   padding-bottom: 4em;
+  color: $font_color_dark;
+  font-size: 1em;
 }
 
 .aboutSection {
   flex: 0 0 32%;
+
+  a {
+    color: $font_color_dark;
+
+    &:hover{
+      text-decoration: none;
+    }
+  }
+
+  h2 {
+    font-size: 1.4em;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 0.85em;
+    letter-spacing: 1px;
+    line-height: 1.8;
+    margin-bottom: 2em;
+
+  }
+
+  a.button {
+    font-size: 0.9em;
+
+    &:hover {
+      box-shadow: 0 0 7px 3px $primal;
+    }
+  }
+
+  .button {
+    @include button($accent, $font_color_lightest, $accent_dark);
+    text-shadow: 1px 1px 1px $accent_dark;
+  }
+
+  .squareBtn {
+    @include squareBtn($accent, $font_color_lightest, $accent_dark);
+    margin-right: 1em;
+  }
+
+  .littleFlexContainer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    span:first-child, div:first-child {
+      flex: 0 0 5em;
+    }
+  }
+
+  .lastUpdRecord {
+    padding-top:0.5em;
+    padding-bottom: 0.5em;
+
+    .month{
+      margin-botton: -0.5em;
+    }
+
+    .day {
+      font-size: 1.5em;
+      margin-top: -0.5em;
+    }
+
+
+    h3 {
+      font-size: 1.1em;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+
+    p {
+      margin-top: 0;
+      margin-bottom: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+
+    a {
+      text-decoration: none;
+
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .aboutUsField {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-top: 1px solid $accent;
+
+    &:first-of-type{
+      border-top: none;
+      margin-top: -0.5em;
+    }
+  }
+
+
 }

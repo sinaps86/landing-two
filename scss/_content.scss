@@ -41,14 +41,13 @@
     font-size: 0.9em;
 
     &:hover {
-      color: $accent_dark;
+      background-color: $accent_dark;
     }
   }
 
   .button {
     @include button($accent, $font_color_lightest, $accent_dark);
-
-
+    text-shadow: 1px 1px 1px $accent_dark;
   }
 
 }
