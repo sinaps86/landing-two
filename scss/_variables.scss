@@ -1,15 +1,16 @@
 $primal: #fff;
 $accent: #99CCBB;
 $accent_light: #b3eedb;
-$accent_dark: #72c5b4;
+$accent_dark: #53b4a9;
 $accent_darkest: #3e9c8b;
 
 $contrast_dark: #000;
 $contrast_light: #d4d4d4;
-$contrast_middle: #3E3E3E;
+$contrast_middle: #5c5c5c;
 
 $font_color_main: $contrast_light;
-$font_color_dark: $contrast_dark;
+$font_color_dark: $contrast_middle;
+$font_color_darkest: $contrast_dark;
 $font_color_light: $contrast_middle;
 $font_color_lightest: $primal;
 $font_color_accent: $accent;

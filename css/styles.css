@@ -17,7 +17,7 @@
   .mainNav .accent {
     color: #99CCBB; }
   .mainNav .contrast {
-    color: #3E3E3E; }
+    color: #5c5c5c; }
   .mainNav ul {
     list-style: none; }
   .mainNav li {
@@ -35,17 +35,19 @@
   .mainNav .button {
     background-color: #99CCBB;
     color: #fff;
-    border: 1px solid #72c5b4;
+    border: 1px solid #53b4a9;
     border-radius: 5px;
     padding: 0.6em 1.4em;
-    text-align: center; }
+    text-align: center;
+    text-decoration: none; }
   .mainNav .lightButton {
     background-color: #fff;
     color: #99CCBB;
     border: 1px solid #fff;
     border-radius: 5px;
     padding: 0.6em 1.4em;
-    text-align: center; }
+    text-align: center;
+    text-decoration: none; }
 
 .logoContainer {
   padding-top: 2em;
@@ -57,6 +59,9 @@
   width: 1200px;
   margin-left: auto;
   margin-right: auto; }
+  .contentBlock h2 {
+    font-size: 2em;
+    margin-bottom: 1.1em; }
 
 .contentContainer {
   display: flex;
@@ -64,9 +69,32 @@
   justify-content: space-between; }
 
 .contentSection {
-  flex: 0 0 32%; }
+  flex: 0 0 32%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-bottom: 3.5em;
+  color: #5c5c5c; }
   .contentSection img {
     width: 100%; }
+  .contentSection h3 {
+    font-size: 1.3em;
+    font-weight: bold; }
+  .contentSection p {
+    font-size: 1em;
+    line-height: 2;
+    margin-bottom: 2.5em; }
+  .contentSection a.button {
+    font-size: 0.9em; }
+    .contentSection a.button:hover {
+      color: #53b4a9; }
+  .contentSection .button {
+    background-color: #99CCBB;
+    color: #fff;
+    border: 1px solid #53b4a9;
+    border-radius: 5px;
+    padding: 0.6em 1.4em;
+    text-align: center;
+    text-decoration: none; }
 
 .aboutContainer {
   width: 1200px;
@@ -85,12 +113,12 @@
   background-color: #fff;
   text-align: center;
   font-size: 0.9em;
-  color: #3E3E3E;
+  color: #5c5c5c;
   box-shadow: 0 -10px 2px rgba(125, 125, 125, 0.1);
   padding-top: 1.8em;
   padding-bottom: 3.1em; }
   .mainFooter a {
-    color: #3E3E3E;
+    color: #5c5c5c;
     text-decoration: underline; }
     .mainFooter a:hover {
       text-decoration: none; }
